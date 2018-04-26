@@ -123,7 +123,7 @@ This method will return true (the $fh actually) if it is successful in locating 
 a file.  False otherwise.  It doesn't automatically set any 'not found' response, you need to
 handle that yourself.
 
-If the last argument is a hashref, we will use it as an overlay on any configuration options.
+If the last argument is a HashRef, we will use it as an overlay on any configuration options.
 
 See the L<\SYNOPSIS> for a longer example.
 
