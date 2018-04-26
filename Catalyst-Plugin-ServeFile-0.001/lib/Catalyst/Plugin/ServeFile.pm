@@ -6,7 +6,7 @@ use Plack::MIME ();
 use HTTP::Date ();
 use File::Spec;
 
-our $VERSION = '0.002';
+our $VERSION = '0.001';
 
 sub serve_file {
   my $c = shift;
